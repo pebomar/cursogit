@@ -1,0 +1,15 @@
+git int: Inicializa el repositorio tomando el directorio donde te encuentras como carpeta central de tus archivos
+git status: Muestra el estado del proyecto en este momento.
+git add archivo: agrega archivo a la lista de seguimiento.
+git rm --cached <file>: Elimina un archivo de la lista de seguimiento.
+git commit -m "comentario": Guarda cambios en la rama, la opción "m" es opcional pero recomendada para agregar comentarios de los cambios realizados.
+git log <file>: Muestra la historia del archivo.
+
+
+/*****  Configurar GIT    ******************/
+git config: Muestra las opciones de configuración de GIT.
+git config --list: Muestra las configuraciones que se tienen cerrar con la letra (q).
+git config --list --show-origin: Muestra donde se tienen las configuraciones guardadas.
+git config --global user.name "Nombre": Cambia el nombre de usuario.
+git config --global user.email "email": Cambia el correo electronico.
+

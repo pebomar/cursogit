@@ -1,0 +1,8 @@
+- Simular lo que se va a borrar sin borralo
+git clean --dry-run
+
+- Borrar archvos
+git clean -f
+
+- Borrar archivos y carpetas
+git clean -df 

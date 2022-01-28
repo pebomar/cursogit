@@ -1,0 +1,5 @@
+git reset <código commit> --hard: se regresa al estado indicado por completo
+git reset <código commit> --soft: Se regresa al estado indicado sin eliminar lo que se encuentra en staging
+git log --stat: Muestra el historial de cambios especificos de cada archivo en cada commit
+git checkout <código commit> archivo: Regresa archivo al estatus indicado por el código commit
+git checkout master archivo: Regresa archivo a lo que tenga en la versión master.

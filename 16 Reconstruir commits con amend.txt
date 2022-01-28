@@ -1,0 +1,2 @@
+- Agregar cambios al último commit en lugar de generar uno nuevo
+git commit --amend

@@ -1,0 +1,14 @@
+- Buscar texto en archivos
+git grep texto_a_buscar
+
+- Buscar texto en archivos y ver la linea en la que se encuentra
+git grep -n texto_a_buscar
+
+- Contar la cantidad de veces que una palabra ocurre
+git grep -c texto_a_buscar
+
+- En caso de usar caracteres especiales usar comillas
+git grep -c "<p>"
+
+- Buscar texto en commits
+git log -S "cabecera"

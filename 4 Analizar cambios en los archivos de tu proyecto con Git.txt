@@ -1,0 +1,2 @@
+git show <file>: Muestra los cambios que han existido en un archivo
+git diff <código commit versión vieja> <código commit versión nueva>: Compara la versión vieja con la nueva y muestra las diferencias

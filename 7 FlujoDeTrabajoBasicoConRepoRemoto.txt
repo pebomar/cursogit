@@ -1,0 +1,9 @@
+git clone url: descarga el proyecto del servidor y genera la base de datos con todos los cambios en el proyecto.
+
+git push: sube los cambios de tu repositorio local al servidor.
+
+git fetch: Descarga del servidor los cambios que ocurridos de la versión que tengas pero no aplica los cambios.
+
+git merge: Combina los cambios descargados del servidor y los combina con los archivos de mi proyecto.
+
+git pull: es la fusión de git fetch y git merge descarga los cambios y los aplica.

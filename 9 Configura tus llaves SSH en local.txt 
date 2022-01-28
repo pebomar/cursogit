@@ -1,0 +1,52 @@
+Generar una nueva llave ssh: (Cualquier sistema operativo)
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+En Mac se genera por defecto en: /Users/omarperez/.ssh/id_rsa
+
+
+Your identification has been saved in /Users/omarperez/.ssh/id_rsa
+Your public key has been saved in /Users/omarperez/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:8V1bXoFh52L2F6x+opExU9jMP1dhggqDFsBnqHoj3hI peb.omar@hotmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|  ..o.o     .+o= |
+|   o = o   .*.* o|
+|  . +   + .. O.++|
+| .       + .+.=++|
+|.       S .+...++|
+|oEo         *   +|
+|.oo.       o o . |
+| o .        o o  |
+|  .        .     |
++----[SHA256]-----+
+
+
+- El proceso a continuación es distinto en mac que en windows y linux
+
+WINDOWS
+
+- Revisar que el servidor de llaves ssh se encuentre activo con:
+eval $(ssh-agent -s)
+
+- Agregar llave al servidor ssh
+ssh-add /Users/omarperez/.ssh/id_rsa
+
+
+
+MAC
+- Evaluar si esta ejecutandose el ssh agent con:
+eval "$(ssh-agent -s)"
+
+- Modificar archivo config en ~/.ssh/config si no existe hay que crearlo con:
+vim config
+Host *
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa
+
+Guardar con Esc+shift+zz
+
+-Agregar llave al servidor ssh vamos a la raiz con cd y a continuacion escribimos:
+ssh-add -K ~/.ssh/id_rsa
+(Las banderas -K y -A son obsoletas y and sido reemplazados por --apple-use-keychain y --apple-load-keychain)

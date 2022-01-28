@@ -1,0 +1,14 @@
+- Guardar cambios en el stash
+git stash
+
+- Ver lista de cambios guardados en stash
+git stash list
+
+- Extraer cambios guardados en el stash
+git stash pop
+
+- Guardar cambios de stash en una nueva rama
+git stash branch nombre-rama
+
+- Eliminar contenido del stash
+git stash drop

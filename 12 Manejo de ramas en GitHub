@@ -1,0 +1,8 @@
+- Ver que ramas existen y cual es su historia
+git show-branch
+
+- Ver que ramas existen y cual es su historia con un poco mas de datos
+git show-branch --all
+
+- Agregar una nueva opción para descargar de forma remota además de origin
+git remote add nombreRemoto(se usó upstream) urlGithub

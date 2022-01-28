@@ -1,0 +1,5 @@
+- Ver URL de nuestros repositorios
+git remote -v
+
+- Se cambia la URL de origin
+git remote set-url origin urlssh

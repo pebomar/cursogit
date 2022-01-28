@@ -1,0 +1,15 @@
+Comandos de terminal
+cd: cambiar directorio
+ls: Mostrar archivos de la ubicación actual
+ls -al: Mostrar archivos de la ubicación actual listados incluyendo archivos ocultos
+ls -l: Mostrar archivos en forma de lista sin incluir archivos ocultos
+clear: Limpiar consola
+Ctrl + l: Limpiar consola
+cd ..: Regresar un directorio
+mkdir NombreCarpeta: Crear carpeta.
+touch archivo.extension: Crear archivo vacío
+cat archivo: Mostrar contenido de archivo
+history: Mostrar historial de comandos
+!NumComando: Repetir un comando listado en el historial
+rm archivo: Borra archivo
+comando --help: Muestra información detallada del comando

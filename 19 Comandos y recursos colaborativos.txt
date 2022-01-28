@@ -1,0 +1,32 @@
+- Ver los commits que se han realizado cad colaborador
+git shortlog
+
+- Ver solo el numero de commits por persona
+git shortlog -sn
+
+- Ver solo el numero de commits por persona incluyendo los commits borrados
+git shortlog -sn --all
+
+- Ver solo el numero de commits por persona incluyendo los commits borrados sin contar los merge
+git shortlog -sn --all --no-merges
+
+- Crear comando git stats
+git config --global alias.stats "shortlog -sn --all --no-merges"
+
+- Para saber quien hizo que cosa en un archivo
+git blame nombre_archivo
+
+- Para saber quien hizo que cosa un poco mas identado
+git blame -c nombre_archivo
+
+- Para ver como funciona un comando por dentro
+git comando_git --help
+
+- Para ver quien hizo que cosa por renglones
+git blame nombre_archivo -Lnumero_linea_inicio,numero_linea_final
+
+- Para ver ramas remotas
+git branch -r
+
+- Para ver ramas remotas y locales
+git branch -a

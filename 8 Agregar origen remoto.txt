@@ -1,0 +1,9 @@
+git remote add origin <direccion https>		:  Agregar origen remoto
+
+git remote 									: Ver origen remoto
+
+git remote -v								: Ver origen remoto verbal
+
+git push origin master:main					: Enviar al origen la rama master
+
+git pull origin master						: Traer el contenido remoto si es la primera vez agregar --allow-unrelated-histories

@@ -1,0 +1,5 @@
+- Ver todos los cambios que se han realizado
+git reflog
+
+- Restaurar todo al estado deseado 
+git reset --HARD hash(1848683)

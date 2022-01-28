@@ -1,0 +1,2 @@
+- Traer commits viejos al head de un branch
+git cherry-pick cadena_hash_del_commit

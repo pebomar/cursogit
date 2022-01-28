@@ -1,0 +1,32 @@
+/*********** Instalación en Windows    ******************/
+
+1.- Buscar git (https://git-scm.com)
+2.- Buscar la opción de descarga y deswcargar el ejecutable (.exe)
+3.- En el apartado de licencia dar clic en siguiente.
+4.- Seleccionar opción de ubicación normalmente la que se encuentra por defecto es la  adecuada.
+5.- En el apartado select components asegurarse seleccionar "Git Bash here".
+6.- En el apartado select start menu folder dejar la opción por defecto.
+7.- En el apartado "Choosing the default editor used by Git" dejar la opción por defecto (Use Vim).
+8.- En el apartado "Adjusting your PATH environment" tiene 3 opciones:
+	a) Use git from Git Bash only: Usar la linea de comandos de Git que es una terminal emulada de linux.
+	b) Git from the command line and also from 3rd-party software: Opción recomendada en la que puedes usar git desde Git Bash y la linea de comandos de windows.
+	c) Use Git and optional Unix tools from the Command Prompt: sustituir la terminal de windows.
+9.- En el apartado "Choosing HTTPS transport backend" se recomienda seleccionar  "OpenSSL library".
+10.- En el apartado "Configuring the line ending conversions" se recomienda usar la opción "Checkout Windows-style, commit Unix-style line endings" que convierte los saltos de linea de windows a uno compatible cuando se suben los cambios.
+11.- En el apartado "Configuring the terminal emulator to use with Git Bash" se recomienda seleccionar "Use MinTTY" que es el emulador de linux.
+
+
+
+/*********** Instalación en Mac    ******************/
+
+1.- Buscar git (https://git-scm.com)
+2.- Buscar la opción de descarga y deswcargar el ejecutable (.dmg)
+3.- Dar clic en siguiente hasta terminar instalación
+4.- Se puede validar la instación entrando en la terminal y escribiendo git --version
+
+
+/*********** Instalación en Linux    ******************/
+1.- Abrir terminal y ejecutar apt-get update actualiza lista de paquetes
+2.- Ejecutar comando apt-get upgrade
+3.- Ejecutar apt-get install git
+4.- Verificar instalación con git --version

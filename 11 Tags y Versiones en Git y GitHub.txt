@@ -1,0 +1,30 @@
+- Comando útiles
+
+git log 										Muestra los cambios que han sucedido
+git log --all									Muestra todos los cambios incluidos los generados por otras ramas que se unieron.
+git log --all --graph							Muestra una opción grafica con lineas
+git log --all --graph --decorate --oneline		Muestra todo mas reducido
+
+
+- Crear un alias en consola
+
+alias nombreAlias="comandoConsola"
+
+
+- Crear un Tag
+git tag -a NOMBRETAG -m "Mensaje del tag" HASHDELTAG
+
+- Ver tags disponibles
+git tag
+
+- Ver a que hash están conectados los Tags
+git show-ref --tags
+
+- Subir tags github
+git push origin --tags
+
+- Eliminar tag (Solo lo borra localmente)
+git tag -d dormido
+
+- Eliminar referenciaq de tag para eliminarlo remotamente
+git push origin :refs/tags/dormido
